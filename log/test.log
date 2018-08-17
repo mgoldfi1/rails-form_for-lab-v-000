@@ -816,3 +816,14 @@ Completed 302 Found in 3ms (ActiveRecord: 0.4ms)
   [1m[35m (0.0ms)[0m  begin transaction
 Started GET "/school_classes/new" for 127.0.0.1 at 2018-08-17 16:06:50 +0000
 Processing by SchoolClassesController#new as HTML
+  Rendered school_classes/new.html.erb within layouts/application (24.7ms)
+Completed 200 OK in 299ms (Views: 286.0ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+Started GET "/school_classes/new" for 127.0.0.1 at 2018-08-17 16:06:50 +0000
+Processing by SchoolClassesController#new as HTML
+  Rendered school_classes/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.1ms)[0m  [1mrollback transaction[0m
