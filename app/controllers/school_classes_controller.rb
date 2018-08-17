@@ -17,6 +17,7 @@ def create
 end
 
 def edit
+  @school_class = SchoolClass.new 
 end
 
 def update
