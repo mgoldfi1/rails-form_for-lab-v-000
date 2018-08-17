@@ -17,7 +17,7 @@ def create
 end
 
 def edit
-  @school_class = SchoolClass.new
+  @school_class = SchoolClass.find_by_id(params[:id])
 end
 
 def update
